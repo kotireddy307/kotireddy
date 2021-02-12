@@ -1,0 +1,71 @@
+'''
+a=[1,2]
+b=[1,2]
+print(id(a),id(b))
+'''
+'''
+a='restart'
+b=a[0]
+c=a[1:]
+d=c.replace(b,'$')
+print(b+d)
+'''
+'''
+a='restart'
+b=''
+for i in a[1:]:
+    if i=='r':
+        b=b+'$'
+    else:
+        b=b+i
+print(a[0]+b)
+'''
+'''
+a=input('enter a string:')
+b=a.split(',')
+for i in b:
+    if int(i)%5==0 and len(i)==4:
+        print(i,end=',')
+'''
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
